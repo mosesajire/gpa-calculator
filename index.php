@@ -135,8 +135,8 @@
             // Get score and unit of course 4
             if (!isset($_POST['s4']) || empty($_POST['s4']) || !isset($_POST['u4']) || empty($_POST['u4']) || !is_numeric($_POST['s4']) || !is_numeric($_POST['u4'])) {
                 // Set the default value to zero.
-                $s2 = 0;
-                $u2 = 0;
+                $s4 = 0;
+                $u4 = 0;
             } else {
                 // obtain the values entered by the user.
                 $s4 = htmlentities($_POST['s4']);
